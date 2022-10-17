@@ -1,0 +1,14 @@
+--INSERT INTO USERS_TBL (id,first_name,last_name,password,email)
+--VALUES (4, 'Raj1', 'Sr', 'raj123', 'raj@gmail.com');
+--INSERT INTO USERS_TBL (id,first_name,last_name,password,email)
+--VALUES(5, 'Mahesh1', 'Mr', 'mahesh123', 'mahesh@gmail.com');
+--
+--INSERT INTO SUBCATEGORY_TBL (id,category_id,description,name)
+--VALUES (1, 1, 'Mobile Products', 'Mobiles');
+--INSERT INTO SUBCATEGORY_TBL (id,category_id,description,name)
+--VALUES (2, 2, 'Laptop Products', 'Laptops');
+--
+--INSERT INTO product_tbl (id,name,price,stock,sub_category_id)
+--VALUES (1, 'samsung',6000,2,1);
+--INSERT INTO product_tbl (id,name,price,stock,sub_category_id)
+--VALUES (2, 'lenovo',62000,2,2);
