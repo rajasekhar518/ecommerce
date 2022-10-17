@@ -11,6 +11,7 @@ This is a backend application for the below APIs:
 6.	PUT/DELETE API to add/delete items to the cart.
 7.	GET API to view the list of products in the cart.
 8.	Mock API for checkout.
+9. Dockerized the backend application
 
 
 ### Current UserCase Design
@@ -22,6 +23,7 @@ Application is built as single service for above APIs due to time contraint with
  . Easy to deploy as single service
 
 ### Drawbacks :
+ . changing business in one of service we need to repackage and redeploy
  . Can not individually scale or make changes on specefic services without affecting other service
 
  ### Microservice Design (Recommended for real scenario)
@@ -29,7 +31,8 @@ Application is built as single service for above APIs due to time contraint with
  orderservice,userserivce,productservice etc
  #### Benefits :
  . Improved Scalalibity
- . Better Fault Isolation
+ . Exception propegation is prorper.
+ . Adopting new technologies very easy
  
  #### Drawbacks :
  . We need to use extra services like euraka server and feign for service discovery and communication 
